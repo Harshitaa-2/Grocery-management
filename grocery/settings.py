@@ -79,15 +79,16 @@ WSGI_APPLICATION = 'grocery.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'HOST': 'containers-us-west-25.railway.app',
-        'PORT': '7306',
-        'USER': 'postgres',
-        'PASSWORD': 'rYSmhcTJ5ymTJo6ukaIo',
-    }
+	'default': {
+		'ENGINE': 'django.db.backends.mysql',
+		'NAME': 'Grocery_database',
+		'USER': 'root',
+		'PASSWORD': '#Harshita0210',
+		'HOST':'localhost',
+		'PORT':'3306',
+	}
 }
+
 
 
 # Password validation
